@@ -1,17 +1,17 @@
  <!-- bootstrap core css -->
-  <link rel="stylesheet" type="text/css" href=<?= base_url("template/css/bootstrap.css")?> />
+  <link rel="stylesheet" type="text/css" href="<?= base_url("template/css/bootstrap.css")?>" />
 
   <!--owl slider stylesheet -->
-  <link rel="stylesheet" type="text/css" href=<?= base_url("template/css/owl.carousel.min.css")?> />
+  <link rel="stylesheet" type="text/css" href="<?= base_url("template/css/owl.carousel.min.css")?>" />
 
   <!-- font awesome style -->
-  <link href=<?= base_url("template/css/font-awesome.min.css")?> rel="stylesheet" />
+  <link href="<?= base_url("template/css/font-awesome.min.css")?>" rel="stylesheet" />
   <!-- lightbox -->
-  <link href=<?= base_url("template/css/ekko-lightbox.css")?> rel="stylesheet" />
+  <link href="<?= base_url("template/css/ekko-lightbox.css")?>"rel="stylesheet" />
   <!-- Custom styles for this template -->
-  <link href=<?= base_url("template/css/style.css")?> rel="stylesheet" />
+  <link href="<?= base_url("template/css/style.css")?>" rel="stylesheet" />
   <!-- responsive style -->
-  <link href=<?= base_url("template/css/responsive.css")?> rel="stylesheet" />
+  <link href="<?= base_url("template/css/responsive.css")?>" rel="stylesheet" />
 
     <!-- slider section -->
     <section class="slider_section ">
@@ -37,7 +37,7 @@
                 </div>
                 <div class="col-md-5 col-lg-6">
                   <div class="img-box col-lg-10 mx-auto px-0">
-                    <img src=<?= base_url("template/images/mont.png")?> alt="">
+                    <img src="<?= base_url("template/images/mont.png")?>" alt="">
                   </div>
                 </div>
               </div>
@@ -63,7 +63,7 @@
                 </div>
                 <div class="col-md-5 col-lg-6">
                   <div class="img-box col-lg-10 mx-auto px-0">
-                    <img src=<?= base_url("template/images/mont.png")?> alt="">
+                    <img src="<?= base_url("template/images/mont.png")?>" alt="">
                   </div>
                 </div>
               </div>
@@ -89,7 +89,7 @@
                 </div>
                 <div class="col-md-5 col-lg-6">
                   <div class="img-box col-lg-10 mx-auto px-0">
-                    <img src=<?= base_url("template/images/mont.png")?> alt="">
+                    <img src="<?= base_url("template/images/mont.png")?>" alt="">
                   </div>
                 </div>
               </div>
@@ -107,7 +107,7 @@
 
     </section>
     <!-- end slider section -->
-  </div>
+  
 
   <!-- service section -->
 
@@ -122,7 +122,7 @@
         <div class="col-md-4">
           <div class="box">
             <div class="img-box">
-              <img src=<?= base_url("template/images/s1.png")?> alt="">
+              <img src="<?= base_url("template/images/s1.png")?>" alt="">
             </div>
             <div class="detail-box">
               <h5>
@@ -137,7 +137,7 @@
         <div class="col-md-4">
           <div class="box">
             <div class="img-box">
-              <img src=<?= base_url("template/images/s2.png")?> alt="">
+              <img src="<?= base_url("template/images/s2.png")?>" alt="">
             </div>
             <div class="detail-box">
               <h5>
@@ -152,7 +152,7 @@
         <div class="col-md-4">
           <div class="box">
             <div class="img-box">
-              <img src=<?= base_url("template/images/s3.png")?> alt="">
+              <img src="<?= base_url("template/images/s3.png")?>" alt="">
             </div>
             <div class="detail-box">
               <h5>
@@ -171,20 +171,20 @@
   <!-- end service section -->
 
     <!-- jQery -->
-  <script src=<?= base_url("template/js/jquery-3.4.1.min.js")?>></script>
+  <script src="<?= base_url("template/js/jquery-3.4.1.min.js")?>"></script>
   <!-- popper js -->
-  <script src=<?= base_url("template/js/popper.min.js")?> integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+  <script src="<?= base_url("template/js/popper.min.js")?>" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
   </script>
   <!-- bootstrap js -->
-  <script src=<?= base_url("template/js/bootstrap.js")?>></script>
+  <script src="<?= base_url("template/js/bootstrap.js")?>"></script>
   <!-- owl slider -->
-  <script src=<?= base_url("template/js/owl.carousel.min.js")?>>
+  <script src="<?= base_url("template/js/owl.carousel.min.js")?>">
   </script>
   <!-- lightbox -->
-  <script src=<?= base_url("template/js/ekko-lightbox.min.js")?>></script>
+  <script src="<?= base_url("template/js/ekko-lightbox.min.js")?>"></script>
   <!-- custom js -->
-  <script src=<?= base_url("template/js/custom.js")?>></script>
+  <script src="<?= base_url("template/js/custom.js")?>"></script>
   <!-- Google Map -->
-  <script src=<?= base_url("template/js/js.js")?>>
+  <script src="<?= base_url("template/js/js.js")?>">
   </script>
 
