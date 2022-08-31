@@ -1,3 +1,5 @@
+ <!-- font awesome style -->
+  <link href="<?= base_url("template/css/font-awesome.min.css")?>" rel="stylesheet" />
  <!-- footer section -->
   <footer class="footer_section">
     <div class="container">
@@ -17,7 +19,7 @@
               <i class="fa fa-youtube-play" aria-hidden="true"></i>
             </a>
           </div>
-        </div>
+        </div> 
       </div>
       <div class="row footer_main_row">
         <div class="col-md-6 col-lg-3 footer-col">

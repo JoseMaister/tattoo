@@ -17,7 +17,7 @@
   <!-- Custom styles for this template -->
   <link href="<?= base_url("template/css/style.css")?>" rel="stylesheet" />
   <!-- responsive style -->
-  <link href=<"?= base_url("template/css/responsive.css")?>" rel="stylesheet" />
+  <link href="<?= base_url("template/css/responsive.css")?>" rel="stylesheet" />
     <!-- font awesome style -->
   <link href="<?= base_url("template/css/font-awesome.min.css")?>" rel="stylesheet" />
 

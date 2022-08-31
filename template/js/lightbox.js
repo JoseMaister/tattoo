@@ -1,37 +1,55 @@
+var responsiveSlider = function() {
 
-function openModal() {
-  document.getElementById("myModal").style.display = "block";
-}
+var slider = document.getElementById("slider");
+var sliderWidth = slider.offsetWidth;
+var slideList = document.getElementById("slideWrap");
+var count = 1;
+var items = slideList.querySelectorAll("li").length;
+var prev = document.getElementById("prev");
+var next = document.getElementById("next");
 
-function closeModal() {
-  document.getElementById("myModal").style.display = "none";
-}
+window.addEventListener('resize', function() {
+  sliderWidth = slider.offsetWidth;
+});
 
-var slideIndex = 1;
-showSlides(slideIndex);
-
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("demo");
-  var captionText = document.getElementById("caption");
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";
+var prevSlide = function() {
+  if(count > 1) {
+    count = count - 2;
+    slideList.style.left = "-" + count * sliderWidth + "px";
+    count++;
   }
-  for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
+  else if(count = 1) {
+    count = items - 1;
+    slideList.style.left = "-" + count * sliderWidth + "px";
+    count++;
   }
-  slides[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " active";
-  captionText.innerHTML = dots[slideIndex-1].alt;
+};
+
+var nextSlide = function() {
+  if(count < items) {
+    slideList.style.left = "-" + count * sliderWidth + "px";
+    count++;
+  }
+  else if(count = items) {
+    slideList.style.left = "0px";
+    count = 1;
+  }
+};
+
+next.addEventListener("click", function() {
+  nextSlide();
+});
+
+prev.addEventListener("click", function() {
+  prevSlide();
+});
+
+setInterval(function() {
+  nextSlide()
+}, 5000);
+
+};
+
+window.onload = function() {
+responsiveSlider();  
 }

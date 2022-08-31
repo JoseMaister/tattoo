@@ -23,8 +23,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-//$config['base_url'] = 'http://localhost/websites/tattoos/';
-$config['base_url'] = '/home/webcindario/t/a/tattootest/tattoos/';
+$config['base_url'] = 'http://localhost/websites/tattoos/';
+//$config['base_url'] = 'https://tattoomonttest.000webhostapp.com/tattoo';
+//$config['base_url'] = '/home/webcindario/t/a/tattootest/tattoos/';
 
 /*
 |--------------------------------------------------------------------------
